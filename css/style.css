@@ -146,6 +146,16 @@ input {
 }
 
 input[type="button"] {
+	font-size: 18px;
+	min-height: 40px;
+	border-radius: 2px;
+	line-height: 20px;
+	padding: 11px 30px 12px;
+	border: none;
+	margin-bottom: 10px;
+	background-color: #f38f18;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
 	transition: all 0.3s ease-in-out 0s;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 }
@@ -2464,6 +2474,3 @@ form {
 	outline: none;
 	background-color: #f38f18;
 }
-
-
-
