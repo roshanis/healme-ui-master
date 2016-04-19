@@ -2,7 +2,7 @@
 $field_email = $_POST['email'];
 
 
-$mail_to = 'YOUR_MAIL@GOES_HERE.com';
+$mail_to = 'support@healme.io';
 $subject = '#Message# '.$field_email;
 
 $body_message = 'From: '.$field_name."\n";
@@ -15,14 +15,14 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
 if ($mail_status) { ?>
  <script language="javascript" type="text/javascript">
-  alert('Thank you for register with us.');
+  alert('Thank you for registering with us.');
   window.location = 'index.html';
  </script>
 <?php
 }
 else { ?>
  <script language="javascript" type="text/javascript">
-  alert('Registration failed. Please, send an email to YOUR_MAIL@GOES_HERE.com');
+  alert('Registration failed. Please, send an email to support@healme.io');
   window.location = 'index.html';
  </script>
 <?php
