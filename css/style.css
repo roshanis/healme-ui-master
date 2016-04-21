@@ -317,6 +317,11 @@ header {
 	border-color: #164e86;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #f38f18;
+    border-color: #f38f18;
+}
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
@@ -1873,6 +1878,7 @@ ul.proced li a:hover {
 	font-size: 17px;
 	line-height: 22px;
 }
+
 .buy {
 	float: left;
 	width: 100%;
